@@ -10,7 +10,6 @@ navToggle.addEventListener('click', () => {
   navToggle.setAttribute('aria-expanded', String(isOpen));
 });
 
-// Close mobile nav when a link is clicked
 navLinks.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('open');
@@ -27,3 +26,20 @@ navLinks.querySelectorAll('a').forEach((link) => {
   probe.onerror = () => {}; // keep placeholder
   probe.src = 'assets/avatar.jpg';
 })();
+
+// Scroll-reveal, staggered via CSS transition-delay on grouped elements
+const revealEls = document.querySelectorAll('.reveal');
+if (revealEls.length) {
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15, rootMargin: '0px 0px -40px 0px' }
+  );
+  revealEls.forEach((el) => revealObserver.observe(el));
+}
