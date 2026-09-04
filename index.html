@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mahseen W Gokak — Full-Stack Developer</title>
+<meta name="description" content="Mahseen W Gokak — Full-stack developer (MERN) building AI-powered web platforms. Portfolio, projects, and contact." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👋</text></svg>">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header" id="top">
+  <nav class="nav container">
+    <a href="#top" class="logo">MG<span class="dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-text">
+      <p class="eyebrow">Full-Stack Developer (MERN)</p>
+      <h1>Hi, I'm Mahseen —<br>I build AI-powered<br><span class="highlight">web platforms.</span></h1>
+      <p class="hero-sub">CS Engineering student at Jain College of Engineering &amp; Technology, expected 2027. I like building things that actually run in production, not just tutorials — five deployed projects below, each with a live link.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-status">
+        <span class="pulse-dot"></span>
+        Open to SDE internships &amp; freelance work
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="avatar-frame">
+        <!-- PLACEHOLDER: replace assets/avatar-placeholder.svg with your real profile photo (assets/avatar.jpg), then update the src below -->
+        <img src="assets/avatar-placeholder.svg" alt="Mahseen W Gokak" class="avatar-img" id="avatarImg" />
+      </div>
+      <div class="hero-badge badge-1">React 19</div>
+      <div class="hero-badge badge-2">Node / Express</div>
+      <div class="hero-badge badge-3">MongoDB</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about container" id="about">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-lead">
+        I'm a full-stack developer working across the MERN stack, focused on shipping AI-powered products end to end —
+        from data model to deployed UI. Currently sharpening my AI/ML fundamentals (IBM, Coursera, IBM SkillsBuild)
+        alongside core software engineering, because I want to understand both how to build a product and why the
+        model behind it works.
+      </p>
+      <dl class="about-facts">
+        <div>
+          <dt>Education</dt>
+          <dd>B.E. Computer Science Engineering, Jain College of Engineering &amp; Technology — expected 2027</dd>
+        </div>
+        <div>
+          <dt>Focus</dt>
+          <dd>Full-stack web apps, AI/ML integration, prompt engineering</dd>
+        </div>
+        <div>
+          <dt>Currently</dt>
+          <dd>Sharpening AI/ML fundamentals alongside core software engineering</dd>
+        </div>
+        <div>
+          <dt>Status</dt>
+          <dd>Open to SDE internships &amp; freelance work</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills container" id="skills">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>What I Work With</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Core</h3>
+        <ul class="pill-list">
+          <li>React.js</li><li>Node.js</li><li>Express.js</li>
+          <li>MongoDB</li><li>JavaScript</li><li>Python</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Also</h3>
+        <ul class="pill-list">
+          <li>JWT Auth</li><li>REST APIs</li><li>Firebase / Firestore</li>
+          <li>Prompt Engineering</li><li>LangChain</li><li>Basic NLP / ML</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <ul class="pill-list">
+          <li>Git</li><li>Vercel</li><li>Render</li><li>Tailwind CSS</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects container" id="projects">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Selected Projects</h2>
+    </div>
+
+    <div class="project-list">
+
+      <article class="project-card featured">
+        <div class="project-info">
+          <p class="project-tag">Featured</p>
+          <h3>MindMap AI</h3>
+          <p class="project-desc">
+            AI-powered mental health tracking and burnout-prediction platform. React 19 + Node/Express + MongoDB,
+            with mood tracking, a burnout-risk model, an AI recommendations engine, JWT auth, and an analytics dashboard.
+          </p>
+          <ul class="project-stack">
+            <li>React 19</li><li>Node/Express</li><li>MongoDB</li><li>JWT</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://mind-map-ai-zeta.vercel.app" target="_blank" rel="noopener" class="link-btn primary">Live Demo ↗</a>
+            <a href="https://github.com/mahseengokak56-eng/MindMap-AI" target="_blank" rel="noopener" class="link-btn">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <p class="project-tag">Hybrid ML + NLP</p>
+          <h3>EduNova AI Study Bot</h3>
+          <p class="project-desc">
+            Hybrid ML + NLP study assistant. Logistic Regression intent classification across five domains, JWT +
+            bcrypt auth, MongoDB-backed history, optional LLM augmentation via Groq.
+          </p>
+          <ul class="project-stack">
+            <li>Python</li><li>NLP</li><li>MongoDB</li><li>Groq</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://study-bot-chatbot.vercel.app" target="_blank" rel="noopener" class="link-btn primary">Live Demo ↗</a>
+            <a href="https://github.com/mahseengokak56-eng/study-bot-chatbot" target="_blank" rel="noopener" class="link-btn">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <p class="project-tag">Web</p>
+          <h3>Student Wellness Hub</h3>
+          <p class="project-desc">
+            Responsive student wellness site with mental-health resources and stress-management guidance.
+          </p>
+          <ul class="project-stack">
+            <li>React</li><li>Responsive UI</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/mahseengokak56-eng/student-wellness-hub" target="_blank" rel="noopener" class="link-btn">Code ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <p class="project-tag">Collaborative</p>
+          <h3>Axiom — Blockchain Certificate Verification</h3>
+          <p class="project-desc">
+            SHA-256 hashing + IPFS decentralized storage for tamper-proof certificate verification, role-based auth, REST APIs.
+          </p>
+          <ul class="project-stack">
+            <li>SHA-256</li><li>IPFS</li><li>REST APIs</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://axiom-frontend-neon.vercel.app" target="_blank" rel="noopener" class="link-btn primary">Live Demo ↗</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <p class="project-tag">Collaborative</p>
+          <h3>HerShield — Women's Safety Platform</h3>
+          <p class="project-desc">
+            SOS communication, live location tracking, Firestore persistence, real-time rooms, email/SMS integration.
+          </p>
+          <ul class="project-stack">
+            <li>Firestore</li><li>Real-time</li><li>SOS Alerts</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://hershield-web.web.app" target="_blank" rel="noopener" class="link-btn primary">Live Demo ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact container" id="contact">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Get In Touch</h2>
+    </div>
+    <div class="contact-grid">
+      <p class="contact-lead">
+        Open to SDE internship and freelance opportunities. The fastest way to reach me is email —
+        I'll get back to you as soon as I can.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:mahseengokak56@gmail.com" class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">mahseengokak56@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/mahseen-w-gokak-5476342bb/" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">/in/mahseen-w-gokak</span>
+        </a>
+        <a href="https://github.com/mahseengokak56-eng" target="_blank" rel="noopener" class="contact-item">
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">@mahseengokak56-eng</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Mahseen W Gokak. Built with React-flavored HTML, CSS &amp; a little JS.</p>
+    <a href="#top" class="back-to-top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
