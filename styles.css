@@ -142,9 +142,7 @@ h1,h2,h3,p{margin:0;}
   position:relative;width:100%;max-width:360px;aspect-ratio:1/1;
   border-radius:50%;padding:10px;
   background:conic-gradient(from 0deg,var(--pink),var(--coral),var(--gold),var(--pink-2),var(--pink));
-  animation:spin 14s linear infinite;
 }
-@keyframes spin{to{transform:rotate(360deg);}}
 .photo-frame{
   width:100%;height:100%;border-radius:50%;overflow:hidden;
   background:var(--card);border:6px solid var(--bg);
